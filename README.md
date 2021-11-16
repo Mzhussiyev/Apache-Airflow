@@ -1,7 +1,7 @@
 # Apache-Airflow
 
 
-В Amazon Redshift с недавних пор появились возможность выгрузить данные сразу в бинарный колоночный формат Parquet
+# В Amazon Redshift с недавних пор появились возможность выгрузить данные сразу в бинарный колоночный формат Parquet
 
 UNLOAD (
 '
@@ -74,8 +74,7 @@ with DAG(
     # check_if_file_exists >> file_path >> number_of_lines  # так тоже можно
   
   
-#
-  
+# Airflow operator  
 import os
 import datetime as dt
 
